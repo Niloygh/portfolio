@@ -17,6 +17,7 @@
     font-weight: bold;
     border-radius: 5px;
     padding: 18px 35px;
+    cursor: pointer;
 }
 
 h2{
@@ -33,6 +34,9 @@ body{
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url(images/developer.png), url(images/header_bg.png), #FFF8F3;  
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
 }
 nav{
     width: 71%;
@@ -52,4 +56,37 @@ nav .manu li a{
     text-decoration: none;
     font-size: 20px;
     color: #474747;
+}
+
+#banner{
+    border: 1px solid red;
+    margin: 46px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .banner-content{
+    max-width: 585px;
+
+}
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #747474;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1{
+    font-size: 80px;
+    font-weight: bold;
+    color: #181818;
+}
+#banner .banner-content p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #181818;
+    margin-bottom: 35px;
+}
+#banner .banner-img img{
+    max-width: 584px;
+    vertical-align: middle;
 }
