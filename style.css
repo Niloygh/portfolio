@@ -64,6 +64,10 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.logo-1{
+    font-size: 45px;
+    font-weight: 900;
+}
 nav .manu{
     display: flex;
     list-style: none;
